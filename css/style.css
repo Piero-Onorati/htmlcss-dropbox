@@ -9,6 +9,11 @@ body{
     font-family: 'Antonio', sans-serif;
 }
 
+.container{
+    width: 1080px;
+    margin: 0 auto;
+}
+
 .clearfix::after{
     content: '';
     display: table;
@@ -21,12 +26,11 @@ nav{
 
 .btn{
     background-color: #0061ff;
-    font-size: 18px;
+    font-size: 16px;
     color:white;
-    height: 40px;
-    line-height: 40px;
+    height: 30px;
+    line-height: 30px;
     text-align: center;
-    padding: 0px 20px;
     padding: 0px 20px;
     display: inline-block;
 }
@@ -36,10 +40,13 @@ nav{
 /* navbar */
 
 .header-navbar{
+    width: 100%;
     padding: 10px 20px;
     background-color: white;
     height: 80px;
     line-height: 60px;
+    position: fixed;
+    z-index: 90;
 }
 
 .header-navbar nav ul li{
@@ -54,7 +61,12 @@ nav{
     padding: 0 20px;
     font-size: 18px;
     letter-spacing: 1px;
+    height: 70px;
 }
+.header-navbar nav ul li a:hover{
+    border-bottom: 3px solid black;
+}
+
 
 /* left-navbar */
 
@@ -90,7 +102,8 @@ nav{
 .jumbotron{
     background-color: #b4d0e7;
     height: 100vh;
-    padding-bottom: 150px;
+    padding-top: 80px ;
+    margin-bottom: 150px;
 }
 
 .jumbotron-text{
@@ -137,22 +150,25 @@ nav{
     margin-left: 530px;
 }
 
+/* section-1: Price list */
 
 
 
 
 /* da rimuovere */
 
-header{
-    background-color: cornsilk;
+.container{
+    background-color: magenta;
+    height: 7000px;
 }
 
-.header-navbar nav ul li{
-    list-style: none;
-    display: inline-block;
+
+.price-list{
+    background-color: lightpink;
+    height: 700px;
 }
 
-.price-list, .operations, .faqs {
+.operations, .faqs {
     background-color: bisque;
     height: 300px;
 }
@@ -165,4 +181,59 @@ header{
 footer{
     background-color: chocolate;
     height: 660px;
+}
+
+
+/* dropdown */
+#dropdown-1{
+    width: 700px;
+    background-color: #f9f9f9;
+    z-index: 80;
+}
+
+#dropdown-2{
+    width: 500px;
+    background-color: #f9f9f9;
+    z-index: 80;
+}
+
+#dropdown-3, #dropdown-4{
+    width: 200px;
+    background-color: #f9f9f9;
+    z-index: 80;
+}
+.panoramica, .per-settore, .per-tipo-utente{
+    width: calc(100% / 3);
+    float: left;
+    padding: 20px 0;
+}
+
+.dropdown ul li{
+    list-style: none;
+}
+
+#dropdown-1 ul li:nth-child(1){
+    display: block;
+    font-size: 18px;
+    border-bottom: 1px solid darkgrey;
+    font-weight: bold;
+    padding: 10px 0;
+    margin: 0 30px;
+}
+
+.dropdown ul li a{
+    font-size: 17px;
+    display: block;
+    padding: 10px 30px;
+    text-decoration: none;
+    color:black;
+}
+
+.dropdown ul li a:hover{
+    background-color: #f1f1f1;
+}
+
+#dropdown-2>.col-left, #dropdown-2>.col-right {
+    width: calc(100% / 2);
+    float:left;
 }
