@@ -3,7 +3,92 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* common */
 
 body{
-    background-color: aqua;
+    font-family: 'Antonio', sans-serif;
+}
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+
+
+
+/* header */
+
+.header-navbar{
+    padding: 25px 20px;
+    background-color: white;
+    height: 80px;
+}
+
+.container-header{
+    background-color: lightcoral;
+    height: 100px;
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.jumbotron{
+    background-color: #b4d0e7;
+    height: 100vh;
+}
+
+.jumbotron-text{
+    padding-top: 50px;
+}
+
+h1{
+    font-size: 71px;
+    letter-spacing: -1px;
+    line-height: 80px;
+}
+
+.left-header-navbar{
+    float: left;
+}
+
+
+.right-header-navbar{
+    float: right;
+}
+
+
+
+/* da rimuovere */
+
+header{
+    background-color: cornsilk;
+    height: 900px;
+}
+
+.left-header-navbar{
+    background-color: blue;
+    height: 30px;
+    width: 300px;
+}
+
+.right-header-navbar{
+    background-color: lightblue;
+    height: 30px;
+    width: 300px;
+}
+
+
+.price-list, .operations, .faqs {
+    background-color: bisque;
+    height: 300px;
+}
+
+.partners, .teams {
+    background-color: burlywood;
+    height: 300px;
+}
+
+footer{
+    background-color: chocolate;
+    height: 660px;
 }
