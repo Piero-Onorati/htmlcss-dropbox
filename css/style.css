@@ -26,7 +26,6 @@ nav{
 
 .btn{
     background-color: #0061ff;
-    font-size: 16px;
     color:white;
     height: 30px;
     line-height: 30px;
@@ -41,10 +40,8 @@ nav{
 
 .header-navbar{
     width: 100%;
-    padding: 10px 20px;
+    padding: 0 20px;
     background-color: white;
-    height: 80px;
-    line-height: 60px;
     position: fixed;
     z-index: 90;
 }
@@ -52,17 +49,18 @@ nav{
 .header-navbar nav ul li{
     list-style: none;
     display: inline-block;
+    line-height: 70px;
 }
 
 .header-navbar nav ul li a{
     color: black;
     text-decoration: none;
     display: inline-block;
-    padding: 0 20px;
     font-size: 18px;
     letter-spacing: 1px;
-    height: 70px;
+    margin: 0 20px;
 }
+
 .header-navbar nav ul li a:hover{
     border-bottom: 3px solid black;
 }
@@ -79,7 +77,6 @@ nav{
     height: 30px;
     vertical-align: middle;
     margin-right: 20px;
-    padding-left:10px;
 }
 
 /* right-navbar */
