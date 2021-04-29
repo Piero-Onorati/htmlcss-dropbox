@@ -8,6 +8,7 @@
 body{
     font-family: 'Antonio', sans-serif;
 }
+
 .clearfix::after{
     content: '';
     display: table;
@@ -18,8 +19,9 @@ nav{
     display: inline-block;
 }
 
-
 /* header */
+
+/* navbar */
 
 .header-navbar{
     padding: 25px 20px;
@@ -41,6 +43,12 @@ nav{
     letter-spacing: 1px;
 }
 
+/* left-navbar */
+
+.left-header-navbar{
+    float: left;
+}
+
 #logo{
     display: inline-block;
     height: 30px;
@@ -48,33 +56,7 @@ nav{
     margin-right: 20px;
 }
 
-
-.container-header{
-    background-color: lightcoral;
-    height: 100px;
-    width: 1320px;
-    margin: 0 auto;
-}
-
-.jumbotron{
-    background-color: #b4d0e7;
-    height: 100vh;
-}
-
-.jumbotron-text{
-    padding-top: 50px;
-}
-
-h1{
-    font-size: 80px;
-    letter-spacing: -2px;
-    word-spacing: 2px;
-    line-height: 110px;
-}
-
-.left-header-navbar{
-    float: left;
-}
+/* right-navbar */
 
 .right-header-navbar{
     float: right;
@@ -93,11 +75,46 @@ h1{
     margin-left: 20px;
 }
 
+/* jumbotron */
+
+.container-header{
+    background-color: lightcoral;
+    height: 100px;
+    width: 1320px;
+    margin: 0 auto;
+}
+
+.jumbotron{
+    background-color: #b4d0e7;
+    height: 100vh;
+    padding-bottom: 150px;
+}
+
+.jumbotron-text{
+    padding-top: 50px;
+}
+
+.jumbotron .jumbotron-text h1{
+    font-size: 80px;
+    letter-spacing: -2px;
+    word-spacing: 2px;
+    line-height: 110px;
+}
+
+.jumbotron .jumbo-img{
+    width: 60%;
+    margin-top: 270px;
+    margin-left: 600px;
+}
+
+
+
+
+
 /* da rimuovere */
 
 header{
     background-color: cornsilk;
-    height: 900px;
 }
 
 .header-navbar nav ul li{
