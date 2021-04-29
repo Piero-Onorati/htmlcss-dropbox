@@ -14,7 +14,9 @@ body{
     clear: both;
 }
 
-
+nav{
+    display: inline-block;
+}
 
 
 /* header */
@@ -25,10 +27,32 @@ body{
     height: 80px;
 }
 
+.header-navbar nav ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+.header-navbar nav ul li a{
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0 20px;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+#logo{
+    display: inline-block;
+    height: 30px;
+    vertical-align: middle;
+    margin-right: 20px;
+}
+
+
 .container-header{
     background-color: lightcoral;
     height: 100px;
-    width: 1440px;
+    width: 1320px;
     margin: 0 auto;
 }
 
@@ -42,21 +66,32 @@ body{
 }
 
 h1{
-    font-size: 71px;
-    letter-spacing: -1px;
-    line-height: 80px;
+    font-size: 80px;
+    letter-spacing: -2px;
+    word-spacing: 2px;
+    line-height: 110px;
 }
 
 .left-header-navbar{
     float: left;
 }
 
-
 .right-header-navbar{
     float: right;
 }
 
-
+.button-header{
+    background-color: #0061ff;
+    font-size: 18px;
+    color:white;
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    padding: 0px 20px;
+    vertical-align: middle;
+    margin-left: 20px;
+}
 
 /* da rimuovere */
 
@@ -65,18 +100,10 @@ header{
     height: 900px;
 }
 
-.left-header-navbar{
-    background-color: blue;
-    height: 30px;
-    width: 300px;
+.header-navbar nav ul li{
+    list-style: none;
+    display: inline-block;
 }
-
-.right-header-navbar{
-    background-color: lightblue;
-    height: 30px;
-    width: 300px;
-}
-
 
 .price-list, .operations, .faqs {
     background-color: bisque;
