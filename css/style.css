@@ -20,18 +20,32 @@ body{
     clear: both;
 }
 
-nav{
-    display: inline-block;
-}
+/* buttons */
 
 .btn{
+    text-align: center;
+    padding: 8px 20px;
+}
+
+.btn-blue{
     background-color: #0061ff;
     color:white;
-    height: 30px;
-    line-height: 30px;
-    text-align: center;
-    padding: 0px 20px;
-    display: inline-block;
+}
+
+.btn-blue:hover{
+    background-color: rgba(0, 97, 255, 0.5);
+}
+
+.btn-jumbo{
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-top: 35px;
+    display:inline-block;
+}
+
+.btn-jumbo a {
+    text-decoration: none;
+    color: white;
 }
 
 /* header */
@@ -39,17 +53,18 @@ nav{
 /* navbar */
 
 .header-navbar{
+    height: 80px;
+    line-height: 78px;
     width: 100%;
     padding: 0 20px;
     background-color: white;
-    position: fixed;
+    position: fixed;  
     z-index: 90;
 }
 
 .header-navbar nav ul li{
     list-style: none;
     display: inline-block;
-    line-height: 70px;
 }
 
 .header-navbar nav ul li a{
@@ -61,10 +76,9 @@ nav{
     margin: 0 20px;
 }
 
-.header-navbar nav ul li a:hover{
+.header-navbar nav ul li .navbar-item:hover{
     border-bottom: 3px solid black;
 }
-
 
 /* left-navbar */
 
@@ -73,10 +87,8 @@ nav{
 }
 
 #logo{
-    display: inline-block;
     height: 30px;
     vertical-align: middle;
-    margin-right: 20px;
 }
 
 /* right-navbar */
@@ -91,61 +103,64 @@ nav{
 
 /* jumbotron */
 
-.container-header{
-    width: 1320px;
-    margin: 0 auto;
-}
-
 .jumbotron{
+    padding: 100px 80px 0 80px; 
     background-color: #b4d0e7;
-    height: 100vh;
-    padding-top: 80px ;
-    margin-bottom: 150px;
 }
 
-.jumbotron-text{
-    padding-top: 50px;
-}
-
-.jumbotron .jumbotron-text h1{
+.jumbotron h1{
     font-size: 80px;
     letter-spacing: -2px;
     word-spacing: 2px;
-    line-height: 110px;
+}
+
+.jumbotron .row{
+    position: relative;
+    bottom: -80px;
+}
+
+.jumbotron-text{
+    float: left;
+    width: 30%;
 }
 
 .jumbotron .jumbotron-text p{
-    width: 30%;
+    width: 95%;
     font-size: 20px;
     line-height: 30px;
-    padding-top:30px;
-}
-
-.btn-jumbotron{
-    margin-top: 30px;
-}
-
-.jumbotron .jumbotron-text span{
-    display: block;
 }
 
 .jumbotron .jumbotron-text .btn-didascalia{
     margin-top: 10px;
+    display: block;
     font-size: 16px;
+    letter-spacing: 1px;
 }
 
 .jumbotron .jumbotron-text .download-symbol{
+    display: block;
     margin-top: 15px;
     font-size: 60px;
     font-weight: bold;
 }
 
-.jumbotron .jumbo-img{
-    display: inline-block;
-    width: 65%;
-    margin-top: -350px;
-    margin-left: 530px;
+.jumbotron-image{
+    float: left;
+    width: 70%;
 }
+
+.jumbo-img{
+    width: 100%
+}
+
+
+
+
+
+
+
+
+
 
 /* section-1: Price list */
 
