@@ -418,11 +418,81 @@ p{
     padding: 40px 0;
 }
 
-/* section-5 :FAQs */
+/* section-4: Teams */
+
+/* .box-container{
+    width: 100vw;
+} */
+.box-container{
+    border: 2px solid red;
+}
+
+.box-container-left, .box-container-right{
+    width: 30vw;
+    float: left;
+}
+
+.box-container-middle{
+    float:left;
+    width: calc(100% - 60vw);
+    height: 60vh ;
+    overflow: auto ;
+    background-color: #f5f5f5;
+}
+.teams .box-container .box{
+    position: relative;
+    height: 30vh;
+    width: 15vw;
+    float: left;
+}
+
+.box-container .designit {
+
+    background-color: #a2d39b;
+}
+
+.box-container .arizonauni{
+    background-color: #61082b;
+}
+.box-container .floridauni{
+    background-color: #0093ce;
+}
+
+.box-container .topps{
+    background-color: #ff1c1c;
+}
+
+.box-container .worldbyc{
+    background-color: #d5001f;
+}
+
+.box-container .Heart{
+    background-color: #b4d0e7;
+}
+
+.box-container .lonelyplanet{
+    background-color: #0d2481;
+}
+
+.box-container .clearchannel{
+    background-color: #ffd830;
+}
+
+.teams .box-container .box img{
+    filter: invert(100%);
+    color: white;
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+    
+/* section-5: FAQs */
 
 /* FAQs container and FAQ content */
 .faqs-container{
-    height: 700px;
+    min-height: 800px;
     position: relative;
 }
 
@@ -496,8 +566,6 @@ p{
     font-size: 22px;
 }
 
-
-
 .answers {
     font-size: 19px;
     margin-top: -25px;
@@ -522,10 +590,6 @@ p{
 
 /* da rimuovere */
 
-
- .teams {
-    background-color: burlywood;
-}
 
 footer{
     background-color: chocolate;
