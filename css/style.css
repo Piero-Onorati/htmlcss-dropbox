@@ -420,6 +420,7 @@ p{
 
 /* section-5 :FAQs */
 
+/* FAQs container and FAQ content */
 .faqs-container{
     height: 700px;
     position: relative;
@@ -432,28 +433,42 @@ p{
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+/* Title FAQ content */
+
 .faqs h3{
     font-size: 34px;
     padding-bottom: 40px;
 }
 
+/* FAQs row */
+
 .faq-row{
     position: relative;
-    margin-top: 25px;
+    margin-top: 30px;
     border-top: 1px solid #d0d0d3;
 }
 
 .last-faq-row{
     border-bottom: 1px solid #d0d0d3;
-    padding-bottom: 25px;
+    padding-bottom: 30px;
 }
+
+/* Question */
 
 .questions {
-  display: none;
-  
+    display: none;  
 }
 
-.plus{
+.question {
+    font-size: 19px;
+    padding: 30px 0px 30px 15px;
+    display: block;
+    width:100%;
+    cursor: pointer;
+}
+
+.arrow{
     position: absolute;
     top: 30px;
     right: 50px;
@@ -469,7 +484,7 @@ p{
 
 }
 
-.questions:checked ~ .plus {
+.questions:checked ~ .arrow {
     -webkit-transform: rotate(180deg);
     -moz-transform: rotate(180deg);
     -o-transform: rotate(180deg);
@@ -477,20 +492,13 @@ p{
 
 }
 
-.plus i{
+.arrow i{
     font-size: 22px;
 }
 
-.question {
-    font-size: 19px;
-    padding: 30px 0px 30px 15px;
-    
-    display: block;
-    width:100%;
-    cursor: pointer;
-  }
 
-  .answers {
+
+.answers {
     font-size: 19px;
     margin-top: -25px;
     color: #667683 ;
@@ -503,14 +511,14 @@ p{
     -moz-transition: .3s ease;
     -o-transition: .3s ease;
     transition: .3s ease;
-  }
+}
   
-  .questions:checked ~ .answers{
+.questions:checked ~ .answers{
     height: auto;
     opacity: 1;
     padding: 15px;
     
-  }
+}
 
 /* da rimuovere */
 
