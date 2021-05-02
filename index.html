@@ -24,15 +24,102 @@
             <div class="left-header-navbar">
                
                 <nav>
-                    <ul>
+                    <ul class="navbar-ul">
+
+                        <!-- first first item:logo -->
                         <li>
-                            <a href="#">
+                            <a href="#" class="navbar-item">
                                 <img src="img/dropbox-logo.png" alt="dropbox logo" id="logo">
                             </a>
                         </li>
-                        <li><a href="#" class="navbar-item">Perché Dropbox?</a></li>
-                        <li><a href="#"class="navbar-item">Funzioni</a></li>
-                        <li><a href="#" class="navbar-item">Piani e prezzi</a></li>
+                        <!-- end first item:logo -->
+
+                        <!-- second list item: Perchè Dropbox -->
+                        <li>
+                            <a href="#" class="navbar-item navbar-item-drop second-item">
+
+                                <span>Perché Dropbox?</span>
+
+                                <div class="dropdow-content dropdown-1 clearfix">
+                                    
+                                    <div class="panoramica">
+                                        <ul>
+                                            <li>Panoramica</li>
+                                            <li>Storie di clienti</li>
+                                            <li>Come integriamo</li>
+                                            <li>Area di lavoro intelligente</li>
+                                            <li>Fai di più che archiviare</li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="per-settore">
+                                        <ul>
+                                            <li>Per settore</li>
+                                            <li>Educazione</li>
+                                            <li>Mass media</li>
+                                            <li>Edilizia</li>
+                                            <li>Commercio</li>
+                                            <li>Tecnologia</li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="per-tipo-utente">
+                                        <ul>
+                                            <li>Per tipo utente</li>
+                                            <li>Personale</li>
+                                            <li>Famiglia</li>
+                                            <li>Freelance</li>
+                                            <li>Team</li>
+                                            <li>Grandi aziende</li>
+                                        </ul>
+                                    </div>
+                        
+                                </div>
+
+                            </a>
+                        </li>
+                        <!-- end second list item: Perchè Dropbox -->
+
+                        <!-- third list item: Funzioni -->
+                        <li>
+                            <a href="#"class="navbar-item navbar-item-drop third-item">
+
+                                <span> Funzioni</span>
+
+                                <div class="dropdow-content dropdown-2 clearfix">
+
+                                    <div class="drop2-col-left">
+                                        <ul>
+                                            <li>Condividi file</li>
+                                            <li>Archivia ed esegui backup</li>
+                                            <li>Sincronizza i dispositivi</li>
+                                            <li>Semplifica le firme elettroniche</li>
+                                            <li>Proteggi e mantieni al sicuro</li>
+                                            <li>Rimani produttivo</li>
+                                        </ul>
+                                    </div>
+                                    <div class="drop2-col-right">
+                                        <ul>
+                                            <li>Scarica l'applicazione desktop</li>
+                                            <li> Desidero ottenere l'applicazione per dispositivi mobili</li>
+                                            <li>Lavora in remoto</li>
+                                            <li>Collabora</li>
+                                            <li>Organizza un team</li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+
+                            </a>
+                        </li>
+                         <!-- end third list item: Funzioni -->
+
+                        <!-- fourth list item: Piani e prezzi -->
+                        <li>
+                            <a href="#" class="navbar-item navbar-item-drop fourth-item">Piani e prezzi</a>
+                        </li>
+                        <!-- end fourth list item: Piani e prezzi -->
+
                     </ul>
                 </nav>
 
@@ -43,12 +130,49 @@
             <div class="right-header-navbar">
 
                 <nav>
-                    <ul>
-                        <li><a href="#" class="navbar-item">Supporto</a></li>
-                        <li><a href="#" class="navbar-item">Contatta l'ufficio vendite</a></li>
-                        <li><a href="#" class="navbar-item">Accedi</a></li>
+                    <ul class="navbar-ul">
+
+                        <!-- fifth list item: Supporto -->
+                        <li>
+                            <a href="#" class="navbar-item navbar-item-drop fifth-item">
+                                <span>Supporto</span> 
+
+                                <div class="dropdow-content dropdown-4 clearfix">
+                                    <ul>
+                                        <li>Centro assistenza</li>
+                                        <li>Forum della community</li>
+                                    </ul>
+
+                                </div>
+
+                            </a>
+                        </li>
+                        <!-- end fifth list item: Supporto -->
+
+                        <!-- sixth list item: Contatta l'ufficio vendite -->
+                        <li>
+                            <a href="#" class="navbar-item navbar-item-drop sixth-item">
+                                <span>Contatta l'ufficio vendite</span>
+                                
+                                <div class="dropdow-content dropdown-5 clearfix">
+                                    <ul>
+                                        <li>Email</li>
+                                        <li>Chat</li>
+                                    </ul>
+                                </div>
+
+                            </a>
+                        </li>
+                        <!-- end sixth list item: Contatta l'ufficio vendite -->
+
+                        <!-- seventh list item: Accedi -->
+                        <li>
+                            <a href="#" class="navbar-item navbar-item-drop seventh-item">Accedi</a>
+                        </li>
+                        <!-- end seventh list item: Accedi -->
+
                         <li> 
-                            <a href="">
+                            <a href="" class="navbar-item">
                                 <span class="btn btn-blue">Inizia</span>
                             </a>
                         </li>
@@ -83,6 +207,8 @@
                     <span class="btn-didascalia">Annulla in qualsiasi momento</span>
 
                     <span class="download-symbol">&#8595;</span>
+
+                    <i class="fas fa-comments"></i>
                     
                 </div>
                 <!-- end row:col-sx, jumbotron-text -->
@@ -666,76 +792,6 @@
 
     </footer>
     <!-- end footer -->
-
-    <!-- <div class="dropdown clearfix" id="dropdown-1">
-            <div class="panoramica">
-                <ul>
-                    <li>Panoramica </li>
-                    <li><a href="#">Storie di clienti</a></li>
-                    <li><a href="#">Come integriamo</a></li>
-                    <li><a href="#">Area di lavoro intelligente</a></li>
-                    <li><a href="#">Fai di più che archiviare</a></li>
-                </ul>
-            </div>
-            <div class="per-settore">
-                <ul>
-                    <li>Per settore</li>
-                    <li><a href="#">Educazione</a></li>
-                    <li><a href="#">Mass media</a></li>
-                    <li><a href="#">Edilizia</a></li>
-                    <li><a href="#">Commercio</a></li>
-                    <li><a href="#">Tecnologia</a></li>
-                </ul>
-            </div>
-            <div class="per-tipo-utente">
-                <ul>
-                    <li>Per tipo utente</li>
-                    <li><a href="#">Personale</a></li>
-                    <li><a href="#">Famiglia</a></li>
-                    <li><a href="#">Freelance</a></li>
-                    <li><a href="#">Team</a></li>
-                    <li><a href="#">Grandi aziende</a></li>
-                </ul>
-            </div>
-
-        </div>
-
-        <div class="dropdown clearfix" id="dropdown-2">
-            <div class="col-left">
-                <ul>
-                    <li><a href="#">Condividi file</a></li>
-                    <li><a href="#">Archivia ed esegui backup</a></li>
-                    <li><a href="#">Sincronizza i dispositivi</a></li>
-                    <li><a href="#">Semplifica le firme elettroniche</a></li>
-                    <li><a href="#">Proteggi e mantieni al sicuro</a></li>
-                    <li><a href="#">Rimani produttivo</a></li>
-                </ul>
-            </div>
-            <div class="col-right">
-                <ul>
-                    <li><a href="#">Scarica l'applicazione desktop</a></li>
-                    <li><a href="#"> Desidero ottenere l'applicazione per dispositivi mobili</a></li>
-                    <li><a href="#">Lavora in remoto</a></li>
-                    <li><a href="#">Collabora</a></li>
-                    <li><a href="#">Organizza un team</a></li>
-                </ul>
-            </div>
-
-        </div>
-
-        <div class="dropdown" id="dropdown-3">
-            <ul>
-                <li><a href="#">Centro assistenza</a></li>
-                <li><a href="#">Forum della community</a></li>
-            </ul>
-        </div>
-
-        <div class="dropdown" id="dropdown-4">
-            <ul>
-                <li><a href="#">Email</a></li>
-                <li><a href="#">Chat</a></li>
-            </ul>
-        </div> -->
     
 </body>
 </html>
