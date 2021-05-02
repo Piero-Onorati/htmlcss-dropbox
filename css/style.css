@@ -270,6 +270,89 @@ p{
     width: 100%
 }
 
+.chat{
+    display: inline-block;
+    background-color: #0d2481;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 40px;
+    right: 30px;
+    z-index: 900;
+    box-shadow: -5px 5px 20px grey;  
+}
+
+.chat i{
+    filter: invert(100%);
+    font-size: 40px;
+    line-height: 70px;
+}
+
+.chat-question {
+    position: relative;
+    background: #f9f9f9;
+    cursor: pointer;
+  }
+
+  .chat-answers {
+    
+    width: 300px;
+    display: none;
+    z-index: 900;
+    border-radius: 20px;
+    background-color: teal;
+    position: fixed;
+    bottom: 40px;
+    right: 120px;
+    -webkit-transition: .3s ease;
+    -moz-transition: .3s ease;
+    -o-transition: .3s ease;
+    transition: .3s ease;
+  }
+
+  .chat-navbar{
+   border-radius: 10px 10px 0 0 ;
+    height: 50px;
+    width: 100%;
+    background-color: #0d2481;
+    text-align: center;
+    padding: 10px 5px ;
+  }
+
+  .chat-navbar i{
+    font-size: 24px;
+    filter: invert(100%);
+    float:left;
+    padding: 0 10px;
+  }
+
+  .chat-navbar span{
+    text-align: center;
+    font-size: 24px;
+    padding-left: 24px;
+    color: white;
+  }
+
+  .chat-navbar .chat-symbol{
+    float:right;
+  }
+
+  .chat-body{
+    width: 100%;
+    height: 400px;
+    background-color: white;
+  }
+  .chat-questions:checked ~ .chat-answers{
+      display: block;
+      box-shadow: -5px 5px 20px grey;
+  }
+  
+  .chat-questions {
+    display: none;  
+  }
+  
 /* section-1: Price list */
 
 .price-list{
@@ -731,7 +814,6 @@ p{
 
 /* footer */
  
-
 footer{
     background-color: black;
     height: 660px;
@@ -768,7 +850,7 @@ footer{
 
 footer .bottom-footer .language{
     padding: 50px 0;
-    border-top: 1px solid white;
+    border-top: 2px solid white;
     width: 15%;
 }
 
@@ -784,61 +866,3 @@ footer .bottom-footer .language .triangle{
     color:#626262;
     vertical-align: text-bottom;
 }
-
-
-
-/* dropdown */
-/* #dropdown-1{
-    width: 700px;
-    background-color: #f9f9f9;
-    z-index: 80;
-    position: absolute;
-}
-
-#dropdown-2{
-    width: 500px;
-    background-color: #f9f9f9;
-    z-index: 80;
-}
-
-#dropdown-3, #dropdown-4{
-    width: 200px;
-    background-color: #f9f9f9;
-    z-index: 80;
-}
-.panoramica, .per-settore, .per-tipo-utente{
-    width: calc(100% / 3);
-    float: left;
-    padding: 20px 0;
-}
-
-.dropdown .ul-dropdown li{
-    list-style: none;
-}
-
-#dropdown-1 .ul-dropdown li:nth-child(1){
-    display: block;
-    font-size: 18px;
-    border-bottom: 1px solid darkgrey;
-    font-weight: bold;
-    padding: 10px 0;
-    margin: 0 30px;
-}
-
-.dropdown .ul-dropdown li a{
-    font-size: 17px;
-    display: block;
-    padding: 10px 30px;
-    text-decoration: none;
-    color:black;
-}
-
-.dropdown ul li a:hover{
-    background-color: #f1f1f1;
-}
-
-#dropdown-2>.col-left, #dropdown-2>.col-right {
-    width: calc(100% / 2);
-    float:left;
-} */
-
