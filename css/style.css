@@ -16,6 +16,10 @@
     clear: both;
 }
 
+a:visited{
+    color: blue;
+}
+
 /* Text */
 
 body{
@@ -338,21 +342,28 @@ p{
     width: 100%;
     border:1px solid #d0d0d3;
 }
-
-.left-content, .right-content{
-    float:left;
+.bottom-row-content{
     padding: 20px 30px;
 }
 
+.left-content, .right-content{
+    float:left;
+}
+
 .left-content{
-    width: 70%;
+    width: 65%;
 }
 
 .left-content p{
-    margin: 10px 0;
+    margin: 15px 0;
+}
+
+.right-content{
+    width: calc(100% - 65%);
 }
 
 .right-content span{
+    margin-top: 40px;
     display: block;
 }
 
@@ -395,6 +406,7 @@ p{
 }
 
 /* section-3: Operation*/
+
 .operations{
     margin-top: 100px;
 }
@@ -420,11 +432,19 @@ p{
 
 /* section-4: Teams */
 
-/* .box-container{
-    width: 100vw;
-} */
+.teams .container .title {
+    width: 60%;
+    padding-bottom: 50px;
+    padding-top: 100px;
+}
+
+.teams .container a{
+    font-size: 20px;
+}
+
+
 .box-container{
-    border: 2px solid red;
+    margin-top: 70px;
 }
 
 .box-container-left, .box-container-right{
@@ -436,9 +456,34 @@ p{
     float:left;
     width: calc(100% - 60vw);
     height: 60vh ;
-    overflow: auto ;
+    overflow: auto;
     background-color: #f5f5f5;
+    position: relative;
 }
+
+.description-team{
+    width: 30vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.description-team img{
+    margin-top: 10px;
+    width: 150px;
+    border-bottom: 1px solid grey;
+    padding-bottom: 30px;
+}
+
+.description-team p{
+    line-height: 24px ;
+    padding: 30px 0;
+    font-size: 16px;
+}
+.description-team span{
+    font-size: 14px;
+}
+
 .teams .box-container .box{
     position: relative;
     height: 30vh;
@@ -447,7 +492,6 @@ p{
 }
 
 .box-container .designit {
-
     background-color: #a2d39b;
 }
 
@@ -487,12 +531,34 @@ p{
     left: 50%;
     transform: translate(-50%, -50%);
 }
-    
+
+.teams-free-trial{
+    background-color: #b4d0e7;
+    padding: 80px 0;
+}
+
+.teams-free-trial h2{
+    width: 90%;
+    font-size: 50px;
+    color:#61082b;
+}
+
+.teams-free-trial .btn{
+    padding: 10px 0px 10px 0px;
+    background-color: #ffffff;
+}
+
+.teams-free-trial .btn a{
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+}
+
 /* section-5: FAQs */
 
 /* FAQs container and FAQ content */
 .faqs-container{
-    min-height: 800px;
+    min-height: 750px;
     position: relative;
 }
 
