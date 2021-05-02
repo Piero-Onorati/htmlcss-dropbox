@@ -442,7 +442,6 @@ p{
     font-size: 20px;
 }
 
-
 .box-container{
     margin-top: 70px;
 }
@@ -654,13 +653,62 @@ p{
     
 }
 
-/* da rimuovere */
-
+/* footer */
+ 
 
 footer{
-    background-color: chocolate;
+    background-color: black;
     height: 660px;
 }
+
+.top-footer .dropbox, .top-footer .azienda, .top-footer .supporto, .top-footer .community, .top-footer .prodotti{
+    width: calc(100% / 5);
+    float: left;
+    padding: 100px 15px;
+}
+
+.top-footer ul li{
+    list-style: none;
+    color:white;
+    padding: 10px 0;
+    font-size: 14px;
+}
+
+.top-footer ul li:first-child{
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.top-footer ul li a{
+    color:white;
+    text-decoration: none;
+}
+
+.top-footer ul li a:visited{
+    color:white;
+    text-decoration: none;
+}
+
+footer .bottom-footer .language{
+    padding: 50px 0;
+    border-top: 1px solid white;
+    width: 15%;
+}
+
+footer .bottom-footer .language .globe{
+    filter: invert(90%);
+}
+
+footer .bottom-footer .language span{
+    color:#626262;
+}
+
+footer .bottom-footer .language .triangle{
+    color:#626262;
+    vertical-align: text-bottom;
+}
+
 
 
 /* dropdown */
