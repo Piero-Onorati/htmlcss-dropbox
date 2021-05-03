@@ -52,6 +52,10 @@ p{
     font-size: 19px;
 }
 
+span.underline{
+    text-decoration: underline;
+}
+
 /* buttons */
 
 .btn{
@@ -613,6 +617,11 @@ p{
     border: 1px solid black;
 }
 
+.partners-text-content .btn a{
+    color: black;
+    text-decoration: none;
+}
+
 /* section-3: Operation*/
 
 .operations{
@@ -672,6 +681,7 @@ p{
 
 .description-team{
     width: 30vw;
+    height: 60vh;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -698,7 +708,7 @@ p{
 /* progress navbar */
 
 .progress-bar { 
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     height: 5px;
     background: #f5f5f5;
     overflow: hidden;
