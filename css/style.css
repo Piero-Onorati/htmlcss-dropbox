@@ -697,31 +697,72 @@ p{
     background-color: #a2d39b;
 }
 
+.box-container .designit:hover{
+    outline: 10px solid #cde7c9;
+    outline-offset: -10px;
+}
+
 .box-container .arizonauni{
     background-color: #61082b;
 }
+
+.box-container .arizonauni:hover{
+    outline: 10px solid #a9798c;
+    outline-offset: -10px;
+}
+
 .box-container .floridauni{
     background-color: #0093ce;
+}
+
+.box-container .floridauni:hover{
+    outline: 10px solid #75c5e4;
+    outline-offset: -10px;
 }
 
 .box-container .topps{
     background-color: #ff1c1c;
 }
 
+.box-container .topps:hover{
+    outline: 10px solid #ff8484;
+    outline-offset: -10px; 
+}
+
 .box-container .worldbyc{
     background-color: #d5001f;
+}
+
+.box-container .worldbyc:hover{
+    outline: 10px solid #e87586;
+    outline-offset: -10px; 
 }
 
 .box-container .Heart{
     background-color: #b4d0e7;
 }
 
+.box-container .Heart:hover{
+    outline: 10px solid #d6e6f2;
+    outline-offset: -10px; 
+}
+
 .box-container .lonelyplanet{
     background-color: #0d2481;
 }
 
+.box-container .lonelyplanet:hover{
+    outline: 10px solid #7c88bb;
+    outline-offset: -10px; 
+}
+
 .box-container .clearchannel{
     background-color: #ffd830;
+}
+
+.box-container .clearchannel:hover{
+    outline: 10px solid #ffea8f;
+    outline-offset: -10px; 
 }
 
 .teams .box-container .box img{
