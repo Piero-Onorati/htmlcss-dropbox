@@ -220,7 +220,7 @@ p{
 
 .dropdown-4, .dropdown-5{
     padding: 5px 20px;
-    width: 250px;
+    width: 300px;
 }
 
 /* jumbotron */
@@ -514,9 +514,11 @@ p{
     padding-bottom: 10px;
    
 }
+
 .price-list .middle-col ul{
     padding-bottom: 31px;
 }
+
 .price-list .right-col ul{
     padding-bottom: 26px;
 }
@@ -532,6 +534,7 @@ p{
     flex-direction: row;
     align-items: baseline;
 }
+
 .price-list ul li span{
     color:#116bff;
     margin-right: 10px;
@@ -545,6 +548,7 @@ p{
     width: 100%;
     border:1px solid #d0d0d3;
 }
+
 .bottom-row-content{
     padding: 20px 30px;
 }
@@ -602,6 +606,7 @@ p{
     font-size: 18px;
     padding: 30px 0;
 }
+
 .partners-text-content .btn{
     display: inline-block;
     margin: 20px 0;
@@ -613,6 +618,7 @@ p{
 .operations{
     margin-top: 100px;
 }
+
 .operations .left-col, .operations .right-col, .operations .middle-col{
     padding: 0 20px;
 }
@@ -621,13 +627,14 @@ p{
     margin-bottom: 20px;
     width: 100%;
 }
+
 .operations p{
     padding-top: 25px;
 }
 
- .operations .bottom-row{
+.operations .bottom-row{
     margin-top: 30px;
- }
+}
 
 .operations .top-row, .operations .bottom-row{
     padding: 40px 0;
@@ -736,6 +743,7 @@ p{
 #slideset > *:nth-child(8) {animation-delay: 35s}
 
 /* Team: box-container */
+
 .teams .box-container .box{
     position: relative;
     height: 30vh;
@@ -850,6 +858,7 @@ p{
 /* section-5: FAQs */
 
 /* FAQs container and FAQ content */
+
 .faqs-container{
     min-height: 750px;
     position: relative;
