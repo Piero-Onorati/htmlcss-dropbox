@@ -24,7 +24,6 @@ a:visited{
 
 body{
     font-family: 'ABeeZee', sans-serif;
-    
 }
 
 h1{
@@ -186,6 +185,7 @@ p{
     list-style: none;
     line-height: 40px;
     font-size: 16px;
+    padding-left: 10px;
 }
 
 .dropdown-1 ul li:first-child{
@@ -222,7 +222,6 @@ p{
     padding: 5px 20px;
     width: 250px;
 }
-
 
 /* jumbotron */
 
@@ -317,6 +316,7 @@ p{
     -moz-transition: .3s ease;
     -o-transition: .3s ease;
     transition: .3s ease;
+    border-radius: 10px;
 }
 
 .chat-questions:checked ~ .chat-answer{
@@ -356,6 +356,7 @@ p{
 }
 
 /* chat body */
+
 .chat-body{
     padding: 20px;
     width: 100%;
@@ -382,8 +383,8 @@ p{
     background-color: white;
     border-top: 1px solid darkgrey;
     height: 100px;
+    border-radius: 0 0 10px 10px;
 }
-
 
 .chat-footer i{
     color:	#606060;
@@ -394,8 +395,7 @@ p{
 .chat-footer span{
     float:left;
     color:	#606060;
-}
-  
+}  
 
 /* section-1: Price list */
 
