@@ -49,6 +49,10 @@ p{
     line-height: 30px;
 }
 
+.operations p{
+    font-size: 19px;
+}
+
 /* buttons */
 
 .btn{
@@ -270,6 +274,10 @@ p{
     width: 100%
 }
 
+/* Chat */
+
+/* Chat button */
+
 .chat{
     display: inline-block;
     background-color: #0d2481;
@@ -281,7 +289,7 @@ p{
     bottom: 40px;
     right: 30px;
     z-index: 900;
-    box-shadow: -5px 5px 20px grey;  
+    box-shadow: -5px 5px 10px grey;  
 }
 
 .chat i{
@@ -290,69 +298,105 @@ p{
     line-height: 70px;
 }
 
-.chat-question {
-    position: relative;
-    background: #f9f9f9;
-    cursor: pointer;
-  }
+.chat-questions {
+    display: none;  
+}
 
-  .chat-answers {
-    
+.chat-question {
+    cursor: pointer;
+}
+
+.chat-answer {
     width: 300px;
     display: none;
     z-index: 900;
-    border-radius: 20px;
-    background-color: teal;
     position: fixed;
-    bottom: 40px;
-    right: 120px;
+    bottom: 140px;
+    right: 30px;
     -webkit-transition: .3s ease;
     -moz-transition: .3s ease;
     -o-transition: .3s ease;
     transition: .3s ease;
-  }
+}
 
-  .chat-navbar{
-   border-radius: 10px 10px 0 0 ;
+.chat-questions:checked ~ .chat-answer{
+    display: block;
+    box-shadow: -5px 5px 10px grey;
+}
+  
+/* Chat-answer structure */
+
+/* chat navbar */
+
+.chat-navbar{
+    border-radius: 10px 10px 0 0 ;
     height: 50px;
     width: 100%;
     background-color: #0d2481;
     text-align: center;
     padding: 10px 5px ;
-  }
+}
 
-  .chat-navbar i{
+.chat-navbar i{
     font-size: 24px;
     filter: invert(100%);
     float:left;
     padding: 0 10px;
-  }
+}
 
-  .chat-navbar span{
+.chat-navbar span{
     text-align: center;
     font-size: 24px;
     padding-left: 24px;
     color: white;
-  }
+}
 
-  .chat-navbar .chat-symbol{
+.chat-navbar .chat-symbol{
     float:right;
-  }
+}
 
-  .chat-body{
+/* chat body */
+.chat-body{
+    padding: 20px;
     width: 100%;
-    height: 400px;
+    height: 300px;
     background-color: white;
-  }
-  .chat-questions:checked ~ .chat-answers{
-      display: block;
-      box-shadow: -5px 5px 20px grey;
-  }
+}
+
+.chat-body .dropbox-hello span{
+    float: right;
+    background-color:lightcyan;
+    width: calc(100% - 50px);
+    margin-left: 10px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.chat-body .dropbox-hello svg{
+    float: left;
+}
+ /* chat footer */
+
+.chat-footer{
+    padding: 10px 20px 50px 20px;
+    background-color: white;
+    border-top: 1px solid darkgrey;
+    height: 100px;
+}
+
+
+.chat-footer i{
+    color:	#606060;
+    font-size: 20px;
+    float:right;
+}
+
+.chat-footer span{
+    float:left;
+    color:	#606060;
+}
   
-  .chat-questions {
-    display: none;  
-  }
-  
+
 /* section-1: Price list */
 
 .price-list{
